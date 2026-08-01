@@ -1,7 +1,30 @@
 aid: raincoat
 name: Raincoat
-description: Raincoat is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Raincoat builds embedded, highly scalable parametric climate insurance
+  products and the automated infrastructure that powers them. Founded in 2019
+  and headquartered in San Juan, Puerto Rico, the company combines real-time
+  environmental and geospatial data with parametric risk models to automatically
+  trigger coverage and deliver instant, direct payouts to beneficiaries after
+  natural disasters such as hurricanes, earthquakes, floods and excess rainfall.
+  Raincoat operates as B2B2C infrastructure, connecting insurers, reinsurers and
+  distribution partners so they can offer embedded disaster protection across
+  Latin America, the Caribbean, the United States and other climate-exposed
+  markets. The company is backed by Anthemis and Two Sigma Ventures. Raincoat
+  publishes no public developer API, developer portal, or API documentation at
+  this time; integration is handled directly through partnership.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/612d40cd06decf6c311f4d04/612d40cd06decf44471f4d55_R-Square-256.png
 url: https://raw.githubusercontent.com/api-evangelist/raincoat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Insurance
+- InsurTech
+- Parametric Insurance
+- Climate
+- Natural Disasters
+- Embedded Insurance
+- Financial Services
+- Risk
+- Geospatial Data
+common:
+- type: DomainSecurity
+  url: security/raincoat-domain-security.yml
+- type: Website
+  url: https://www.raincoat.com/
+- type: About
+  url: https://www.raincoat.com/climate-insurance-101
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
