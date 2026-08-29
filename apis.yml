@@ -13,6 +13,17 @@ description: >-
   markets. The company is backed by Anthemis and Two Sigma Ventures. Raincoat
   publishes no public developer API, developer portal, or API documentation at
   this time; integration is handled directly through partnership.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
