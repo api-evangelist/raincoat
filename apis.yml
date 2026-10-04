@@ -54,8 +54,8 @@ tags:
 - Climate
 - Natural Disasters
 - Embedded Insurance
-- Financial-Services
-- Risk
+- Financial Services
+- Risk Management
 - Geospatial Data
 tags_raw:
 - Company
@@ -68,6 +68,7 @@ tags_raw:
 - Financial Services
 - Risk
 - Geospatial Data
+- Financial-Services
 common:
 - type: DomainSecurity
   url: security/raincoat-domain-security.yml
